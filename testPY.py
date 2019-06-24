@@ -47,6 +47,6 @@ while 1 :
 	if out != '':
 		time.sleep(1)
 		print (out)
-		message = {'Text': out, 'SMSC': {'Location': 1}, 'Number': '0605189427'}
+		message = {'Text': out, 'SMSC': {'Location': 1}, 'Number': 'XXXXXXXXXX'}
 		smsd.InjectSMS([message])
 		ser.flush()
