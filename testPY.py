@@ -49,4 +49,4 @@ while 1 :
 		print (out)
 		message = {'Text': out, 'SMSC': {'Location': 1}, 'Number': 'XXXXXXXXXX'}
 		smsd.InjectSMS([message])
-		ser.flush()
+		#ser.flush()
